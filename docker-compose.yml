@@ -9,7 +9,6 @@ services:
       MARIADB_PASSWORD: letmeinplz
     volumes:
       - mariadb-data:/var/lib/mysql:Z
-      - ./TodoApp/schema.sql:/docker-entrypoint-initdb.d/schema.sql:Z,ro
     ports:
       - "3306:3306"
     healthcheck:
