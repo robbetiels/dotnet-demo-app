@@ -29,7 +29,7 @@ services:
       ConnectionStrings__TodoDb: "Server=todoappdb;Port=3306;Database=todo_db;User=todo_usr;Password=letmeinplz;"
       ASPNETCORE_ENVIRONMENT: Development
     ports:
-      - "8080:8080"
+      - "8081:8080"
 
 volumes:
   mariadb-data:
